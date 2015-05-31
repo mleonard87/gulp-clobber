@@ -21,8 +21,7 @@ function logSuccess(message) {
   gutil.log(chalk.green('Success: ') + message);
   notifier.notify({
     'title': 'Successfully Clobbed',
-    'message': message,
-    'icon': path.join(__dirname, 'success.jpg')
+    'message': message
   });
 };
 
@@ -30,8 +29,7 @@ function logFailure(message) {
   gutil.log(chalk.red('Failure: ') + message);
   notifier.notify({
     'title': 'Failed to Clob',
-    'message': message,
-    'icon': path.join(__dirname, 'failure.jpg')
+    'message': message
   });
 };
 
