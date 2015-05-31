@@ -51,7 +51,7 @@ module.exports = function(changed_file) {
     path: changed_file.path
   });
   file.name = file.path.replace(/^.*[\\\/]/, '');
-  file.dirnamerelative = file.relative.replace('/' + file.name, '');
+  file.dirnamerelative = file.relative.replace(path.sep + file.name, '');
 
   var target_working_dir = path.join(clobber_dir_name, runid);
   var target_build_dir = path.join(target_working_dir, 'build');
