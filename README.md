@@ -2,6 +2,8 @@
 
 gulp-clobber is a [gulp](http://gulpjs.com/) plugin designed to be used with [gulp-watch](https://www.npmjs.com/package/gulp-watch) that detects file changes and promotes these files to an Oracle database using [ScriptRunner](https://github.com/Fivium/ScriptRunner).
 
+Watch a video demo [here](https://youtu.be/m3MZXApefo4).
+
 ## Installation
 
 - Add this repository URL as a [dependency in package.json](https://docs.npmjs.com/files/package.json#dependencies) as gulp-clobber is not registered with npm.
