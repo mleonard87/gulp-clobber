@@ -9,13 +9,12 @@
   "author": "Mike Leonard",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^1.0.0",
     "fs-extra": "^0.18.4",
     "gulp-util": "^3.0.0",
     "node-notifier": "^4.2.1",
+    "string-format": "^0.5.0",
     "uuid": "^2.0.1",
     "vinyl": "^0.4.6"
-  },
-  "devDependencies": {
-    "string-format": "^0.5.0"
   }
 }

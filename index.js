@@ -3,14 +3,13 @@
 var fs = require('fs');
 var path = require('path');
 var os = require('os');
+var exec = require('child_process').exec;
 var notifier = require('node-notifier');
 var File = require('vinyl');
 var chalk = require('chalk');
 var gutil = require('gulp-util');
 var fs = require('fs-extra')
-var mkpath = require('mkpath');
 var uuid = require('uuid');
-var exec = require('child_process').exec;
 var format = require('string-format');
 format.extend(String.prototype);
 
