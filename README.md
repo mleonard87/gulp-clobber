@@ -16,7 +16,7 @@ In gulpfile.js:
 ```js
 var gulp = require('gulp'),
     watch = require('gulp-watch'),
-    watch = require('gulp-clobber');
+    clobber = require('gulp-clobber');
 
 gulp.task('clobber', function() {
   gulp.watch('./Fox5Modules/**/*.xml').on('change', clobber);
